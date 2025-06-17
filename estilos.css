@@ -1,0 +1,120 @@
+/* Fondo y tipografía general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("left 4 dead.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(20, 20, 20, 0.85));
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+
+header h1 {
+  color: #76ff03;
+  font-size: 3em;
+  margin: 0;
+}
+
+header p {
+  color: #ccc;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+/* Menú de navegación */
+nav {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: #76ff03;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* Contenedor principal */
+main {
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: 20px auto;
+  max-width: 1000px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/* Secciones */
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #76ff03;
+  border-bottom: 2px solid #76ff03;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Personajes */
+.personaje {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.personaje img {
+  width: 100px;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 8px;
+  border: 2px solid #76ff03;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9em;
+  border-top: 1px solid #333;
+}
+
+/* Estilo para el índice de contenido */
+.contenido {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+  color: #76ff03;
+}
+
+.contenido a {
+  color: #76ff03;
+  text-decoration: none;
+}
+
+.contenido a:hover {
+  text-decoration: underline;
+}
